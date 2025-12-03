@@ -43,3 +43,6 @@ jobs:
 
       - name: Gitleaks Code Scan
         run: gitleaks detect -s . -r gitleaks-report.json -f json
+
+      - name: Gitleaks Code Scan
+        run: gitleaks detect -s . -r gitleaks-report.json -f json
